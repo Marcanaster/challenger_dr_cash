@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DrCash.CrossCutting\DrCash.CrossCutting.csproj" />
+    <ProjectReference Include="..\DrCash.Data\DrCash.Data.csproj" />
+    <ProjectReference Include="..\DrCash.Domain\DrCash.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

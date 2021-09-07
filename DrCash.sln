@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{F43B73B8-25BF-4F6A-BBF5-5057768BDA06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrCash.API", "DrCash.API\DrCash.API.csproj", "{9B6AB5E4-1982-4471-9BF3-0A92175325B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{A1C4F79F-3590-40AE-8D9E-BE6976A6C8AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4C05A5F5-45F7-403A-84F4-07B0F9AD3B9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrCash.Domain", "DrCash.Domain\DrCash.Domain.csproj", "{EDDB6811-6AC3-4202-AEC1-179F2B4C535D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrCash.CrossCutting", "DrCash.CrossCutting\DrCash.CrossCutting.csproj", "{813A54D1-AA87-4D99-AF87-53A58382B50A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrCash.Data", "DrCash.Data\DrCash.Data.csproj", "{C3503E9B-F59D-4F7D-814C-99E16930191F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrCash.Service", "DrCash.Service\DrCash.Service.csproj", "{139000AE-41D8-4F29-8543-8881C21537FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B6AB5E4-1982-4471-9BF3-0A92175325B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B6AB5E4-1982-4471-9BF3-0A92175325B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B6AB5E4-1982-4471-9BF3-0A92175325B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B6AB5E4-1982-4471-9BF3-0A92175325B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDDB6811-6AC3-4202-AEC1-179F2B4C535D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDDB6811-6AC3-4202-AEC1-179F2B4C535D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDDB6811-6AC3-4202-AEC1-179F2B4C535D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDDB6811-6AC3-4202-AEC1-179F2B4C535D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813A54D1-AA87-4D99-AF87-53A58382B50A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813A54D1-AA87-4D99-AF87-53A58382B50A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813A54D1-AA87-4D99-AF87-53A58382B50A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813A54D1-AA87-4D99-AF87-53A58382B50A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3503E9B-F59D-4F7D-814C-99E16930191F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3503E9B-F59D-4F7D-814C-99E16930191F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3503E9B-F59D-4F7D-814C-99E16930191F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3503E9B-F59D-4F7D-814C-99E16930191F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{139000AE-41D8-4F29-8543-8881C21537FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139000AE-41D8-4F29-8543-8881C21537FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{139000AE-41D8-4F29-8543-8881C21537FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{139000AE-41D8-4F29-8543-8881C21537FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B6AB5E4-1982-4471-9BF3-0A92175325B4} = {F43B73B8-25BF-4F6A-BBF5-5057768BDA06}
+		{EDDB6811-6AC3-4202-AEC1-179F2B4C535D} = {A1C4F79F-3590-40AE-8D9E-BE6976A6C8AE}
+		{813A54D1-AA87-4D99-AF87-53A58382B50A} = {4C05A5F5-45F7-403A-84F4-07B0F9AD3B9E}
+		{C3503E9B-F59D-4F7D-814C-99E16930191F} = {4C05A5F5-45F7-403A-84F4-07B0F9AD3B9E}
+		{139000AE-41D8-4F29-8543-8881C21537FA} = {4C05A5F5-45F7-403A-84F4-07B0F9AD3B9E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91455393-E8BE-4217-A72F-559A0936431A}
+	EndGlobalSection
+EndGlobal
